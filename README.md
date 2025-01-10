@@ -1,4 +1,5 @@
 Microservices-Based Video-to-Audio Converter Project
+
 Project Overview
 This project is a distributed system built for learning purposes, deployed on a local machine using Docker and Kubernetes (Minikube). It consists of four microservices, each designed to perform specific tasks:
 1.	Gateway Service
@@ -6,6 +7,7 @@ This project is a distributed system built for learning purposes, deployed on a 
 3.	Converter Service
 4.	Notification Service
 Each service is containerized into Docker images, published to Docker Hub, and deployed in a Minikube Kubernetes cluster. The system enables users to convert video files into audio files and incorporates robust error handling and logging mechanisms to ensure smooth operation.
+
 Program Flow
 1.	User Login
 o	The user sends a request to the /login endpoint.
