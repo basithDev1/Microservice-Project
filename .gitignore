@@ -1,2 +1,0 @@
-# Ignore only the auth service secret.yaml
-python/src/auth/secret.yaml
